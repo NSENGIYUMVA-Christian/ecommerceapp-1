@@ -1,0 +1,79 @@
+.productContainer{
+  display: flex;  
+  overflow-x: scroll; 
+}
+.product{
+  transition: all 0.2s ease-in-out;
+}
+.product:hover {
+  transform: scale(1.04);
+}
+.navbar{
+  box-shadow: 0 0 5px;
+}
+
+.foot{
+  background: white;
+}
+
+.cal{
+   vertical-align: middle;
+   margin-top: 2px;
+}
+
+.cardImg
+{
+max-height: 100px
+}
+.home {
+  margin: 2 !important;
+  padding: 5 !important;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+
+
+.foot{
+  box-shadow: 0 0 5px;
+}
+
+
+.formContact {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 400px;
+  border-radius: 10px;
+}
+.formContact,input{
+  padding: 5px;
+  border: 3px solid rgb(1, 39, 61);
+}
+.draft{
+  background:rgb(60, 64, 68);
+  color:rgb(60, 64, 68)
+}
+
+
+/* footer css */
+.mediaIcon{
+  transition: all 0.2s ease-in-out;
+}
+.mediaIcon:hover {
+  transform: scale(1.5);
+}
+
+.aboutQuestAndAns {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 400px;
+  border-radius: 10px;
+  padding: 10px;
+}
+details{
+  margin: 5px
+}
